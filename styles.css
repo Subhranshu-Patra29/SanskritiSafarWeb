@@ -1,0 +1,169 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f9fc;
+    line-height: 1.6;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.brand-name {
+    color: #ffe600;
+}
+
+.tagline {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ffe600;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #ffd700;
+}
+
+.features-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.features-section h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #2575fc;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.feature {
+    background: #f7f9fc;
+    border: 1px solid #e0e4e8;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #555;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #2575fc;
+    color: #fff;
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.demo-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.demo-section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #2575fc;
+}
+
+/* Layout for screenshots side-by-side */
+.demo-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.demo-item {
+    text-align: center;
+    max-width: 300px;
+    flex: 1 1 calc(50% - 20px); /* Makes two items fit side by side */
+}
+
+.demo-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.demo-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Centering the video demo */
+.demo-video {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.demo-video video {
+    width: 80%; /* Video takes 80% of the container's width */
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.demo-video p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
